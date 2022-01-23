@@ -1,0 +1,63 @@
+body {
+position: absolute;
+width: 1366px;
+height: 3756px;
+left: 0px;
+top: 0px;
+
+/* special/light */
+
+background: #FEAFC3;
+}
+
+.navigation-link {
+    position: static;
+width: 63px;
+height: 20px;
+left: calc(50% - 63px/2);
+top: calc(50% - 20px/2);
+
+/* Параграф 3 */
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+
+/* basic/extra-dark */
+
+color: #2D3440;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+
+.newsletter-text {
+
+width: 506px;
+height: 66px;
+left: 730px;
+top: 2386px;
+
+/* Параграф 2 */
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+/* or 137% */
+
+
+/* basic/dark */
+
+color: #565C66;
+}
