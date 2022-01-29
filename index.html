@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
 
@@ -11,7 +11,7 @@
     <header class = page-header>
 
       <h1 class="visually-hidden">Glacy Shop</h1>
-      <img class="logo" src="" alt="Логотип «Glacy Shop».">
+      <img class="logo" src="images/Logo.svg" alt="Логотип «Glacy Shop».">
 
       <div class="wrapper-menu-nav">
 
@@ -29,6 +29,9 @@
         </ul>
       </div>
 
+      <p class="contact-number">+7 800 555-86-28</p>
+
+      
       <div class="wrapper-menu-user"></div>
 
         <ul class="navigation-list">
@@ -71,7 +74,7 @@
 
       <section class="gallery">
 
-      <img class="slider-image-one" src="" alt="Мороженка-1">
+      <img class="slider-image-one" src="images/slideshow/slideshow-1.png" alt="Мороженка-1">
 
       <button class="slider-button slider-prev" type="button">
       <span class="visually-hidden">Предыдущее фото</span>
@@ -125,35 +128,36 @@
     <!-- Блок баннеров -->
 
    
-     <h2 class="visually-hidden">Заказывайте мороженое и получайте подарки!</h2>
+     <h2 class="banners-title">Заказывайте мороженое и получайте подарки!</h2>
 
      <section class="banner-one">
        <h2 class="banner-title">Малинка даром!</h2>
-       <p class="banner-description">При покупке 2 кг любого фруктового мороженого добавим в ваш заказ банку малинового варенья бесплатно.</p>
-     </section>
+       <p class="banner-description">При покупке 2 кг любого фруктового мороженого добавим в ваш заказ банку малинового варенья бесплатно.</p>     
      <button class="get-gift-one" type="button">Хочу подарок</button>
-     <img class="logo-gift-one" src="" alt="Малина в рожке.">
+     <img class="logo-gift-one" src="images/malina.png" alt="Малина в рожке.">
+    </section>
 
     
      <section class="banner-two">
        <h2 class="banner-title">Маршмеллоу даром!</h2>
-       <p class="banner-description">При покупке 2 кг пломбира добавим в ваш заказ упаковку нежных зефирок совершенно бесплатно.</p>
-     </section>
+       <p class="banner-description">При покупке 2 кг пломбира добавим в ваш заказ упаковку нежных зефирок совершенно бесплатно.</p>     
      <button class="get-gift-two" type="button">Хочу подарок</button>
-     <img class="logo-gift-two" src="" alt="Маршмеллоу в рожке.">
+     <img class="logo-gift-two" src="images/zefir.png" alt="Маршмеллоу в рожке.">
+    </section>
 
      <!-- Кусок каталога -->
 
-
+     <h2 class="products-title">Попробуйте самые популярные вкусы нашего мороженого</h2>
+     
      <section class="products-list">
-      <h2 class="visually-hidden">Попробуйте самые популярные вкусы нашего мороженого</h2>
+      
 
       <ul class="product-list">
         <!-- Первая карточка -->
 
       <li class="product-card">
         <a class="product-card-link" href="#">
-          <img class="product-card-image" src="" alt="Мороженое Малинка">
+          <img class="product-card-image" src="images/main-cards/card-1.jpg" alt="Мороженое Малинка">
           <h3 class="product-card-title">Малинка</h3></a>
           <p class="product-card-description">Сливочное мороженое с малиновым джемом</p>
         
@@ -168,7 +172,7 @@
 
       <li class="product-card">
         <a class="product-card-link" href="#">
-          <img class="product-card-image" src="" alt="Мороженое Фисташка">
+          <img class="product-card-image" src="images/main-cards/card-2.jpg" alt="Мороженое Фисташка">
           <h3 class="product-card-title">Фисташка</h3></a>
           <p class="product-card-description">Фисташковый пломбир с кусочками шоколада</p>
         
@@ -183,7 +187,7 @@
 
       <li class="product-card">
         <a class="product-card-link" href="#">
-          <img class="product-card-image" src="" alt="Мороженое Черника">
+          <img class="product-card-image" src="images/main-cards/card-3.jpg" alt="Мороженое Черника">
           <h3 class="product-card-title">Черника</h3></a>
           <p class="product-card-description">Крем-брюле
             с черничным джемом</p>
@@ -199,7 +203,7 @@
 
       <li class="product-card">
         <a class="product-card-link" href="#">
-          <img class="product-card-image" src="" alt="Мороженое Бабл-гам">
+          <img class="product-card-image" src="images/main-cards/card-4.jpg" alt="Мороженое Бабл-гам">
           <h3 class="product-card-title">Бабл-гам</h3></a>
           <p class="product-card-description">Ванильный пломбир
             со сладкой посыпкой</p>
@@ -220,24 +224,24 @@
 
       <ul class="seo-list">
           <li class="seo-card">
-            <img class="seo-article-image" src="" alt="иконка мороженое">
+            <img class="seo-article-image" src="images/icons/ice-cream.svg" alt="иконка мороженое">
             <p class="product-card-description">Всё наше мороженое изготавливается на собственном производстве с использованием современного оборудования и проверенных временем технологий.</p>
             </li>
 
           <li class="seo-card">
-              <img class="seo-article-image" src="" alt="иконка листок">
+              <img class="seo-article-image" src="images/icons/leaf.svg" alt="иконка листок">
               <p class="product-card-description">Для приготовления мороженого используются сливки и молоко высочайшего качества. Все ингредиенты
                 и добавки произведены из натурального сырья.</p>
               </li>
 
           <li class="seo-card">
-                <img class="seo-article-image" src="" alt="иконка корова">
+                <img class="seo-article-image" src="images/icons/cow.svg" alt="иконка корова">
                 <p class="product-card-description">Закупка ингредиентов производится только
                   у проверенных фермерских хозяйств, с которыми нас связывает долговременное сотрудничество.</p>
                 </li>
           
           <li class="seo-card">
-                  <img class="seo-article-image" src="" alt="иконка градусник">
+                  <img class="seo-article-image" src="images/icons/termometer.svg" alt="иконка градусник">
                   <p class="product-card-description">Доставка нашего мороженого осуществляется в специальном термопаке, который не даёт мороженому растаять и позволяет сохранить превосходный вкус.</p>
                   </li>
                 </ul>        
@@ -294,6 +298,7 @@
     <!-- Баннер контакты -->
 
     <section class="contacts">
+      <div class="wrapper-contacts">
       <h3 class="contacts-subtitle">Адрес главного офиса и офлайн-магазина:</h3>
       <address class="contacts-adress">
       <p class="contacts-adress-text">наб. реки Карповки, 5 лит П, Санкт-Петербург</p>
@@ -302,6 +307,7 @@
       <a class="contacts-phone" href="tel:88128121212">+7 (812) 812-12-12</a>
       <p class="contacts-phone-text">(с 10 до 20 ежедневно)</p>
       <a class="button-feedback" href="#">Форма обратной связи</a>
+    </div>
 
     </section>
 
@@ -347,7 +353,7 @@
       </ul>   
     </nav>
 
-    <img class="logo-footer" src="" alt="Логотип «.html academy».">
+    <img class="logo-footer" src="images/logo_htmlacademy.svg" alt="Логотип «.html academy».">
     <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a>© 2021</p>
    </footer>  
     
