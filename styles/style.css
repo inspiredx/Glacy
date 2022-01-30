@@ -31,6 +31,31 @@ body {
     line-height: 24px;
 }
 
+.button {
+font-family: inherit;
+font-size: 16px;
+line-height: 16px;
+font-weight: 700;
+text-align: center;
+background: #FCFCFC;
+border: 4px solid rgba(252, 252, 252, 0.4);
+border-radius: 26px;
+box-shadow: 0px 4px 12px rgba(45, 52, 64, 0.1);
+text-decoration: none;
+color: #2D3440;
+}
+
+.product-card-button {
+    background-image: url("../images/buy-button.svg");
+    background-repeat: no-repeat;
+   
+
+}
+
+.visually-hidden {
+    opacity: 0;
+}
+
 /* Pages */
 
 .page-header {
@@ -148,6 +173,120 @@ box-shadow: 0px 8px 16px rgba(45, 52, 64, 0.12);
 border-radius: 8px;
 }
 
-.visually-hidden {
-    color: lavender;
+.banner-seo {
+width: 1122px;
+height: 432px;
+background: #FCFCFC;
+border-radius: 16px;
+}
+
+.seo-card-1 {
+position: absolute;    
+width: 442px;
+height: 66px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+/* or 137% */
+color: #565C66;
+
+}
+
+.seo-card-2 {
+position: absolute;
+width: 440px;
+height: 66px;
+margin-top: 226px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+/* or 137% */
+
+
+/* basic/dark */
+
+color: #565C66;
+}
+
+.seo-card-3 {
+position: absolute;
+width: 441px;
+height: 66px;
+left: 762px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+/* or 137% */
+
+
+/* basic/dark */
+
+color: #565C66;
+
+}
+
+.seo-card-4 {
+
+position: absolute;
+width: 442px;
+height: 66px;
+left: 762px;
+margin-top: 226px;
+/* Параграф 2 */
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+/* or 137% */
+
+
+/* basic/dark */
+
+color: #565C66;
+
+}
+
+.wrapper-seo {
+width: 1170px;
+height: 480px;
+background: url('../images/background-seo.png');
+border-radius: 16px;
+}
+
+
+/* Footer  */
+
+.page-footer {
+    color: #2D3440;
+
+}
+.navigation-link-footer {
+        font-family: "Inter", sans-serif;
+        line-height: 20px;
+        font-weight: 700;
+        color: #2D3440;
+       
+        text-decoration: none;
+    }
+
+ .button-footer {
+        font-family: "Inter", sans-serif;
+        line-height: 20px;
+        font-weight: 700;
+        color: #2D3440;
+       
+        text-decoration: none;
+    }
+
+.htmlacademy-link {
+        color: #2D3440;
 }
