@@ -23,6 +23,8 @@
     font-display: swap;
 }
 
+/* INDEX.HTML */
+
 body {
     font-family: "Inter", sans-serif;
     background-color: #FEAFC3;
@@ -271,4 +273,91 @@ border-radius: 16px;
 
 .htmlacademy-link {
         color: #2D3440;
+}
+
+/* CATALOG.HTML */
+.main-inner {
+    background-size: 100% auto;
+}
+
+/* breadcrumbs */
+
+.breadcrumbs {
+color: #2D3440;
+}
+
+.breadcrumbs-link {
+color: inherit;    
+}
+
+.catalog-filter-title {
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+color: #2D3440;
+}
+
+.control-input {
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+color: #2D3440;
+}
+
+.sorting-container {
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+color: #2D3440;
+}
+
+/* Продуктовая карточка */
+
+.product-card-title {
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #2D3440;
+}
+
+.product-card-description {
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #565C66;
+}
+
+.product-card-price {
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+color: #2D3440;
+}
+
+.product-card-link {
+text-decoration: none;
+}
+
+.product-card-image {
+display: block;
+margin: 0 auto;
+}
+
+.pagination-link {
+background: #FCFCFC;
+border-radius: 50px;
 }
