@@ -361,3 +361,11 @@ body {
     background: #FCFCFC;
     border-radius: 50px;
 }
+
+.product-list {
+    display: flex;
+   justify-content: space-between;    
+   
+  
+}
+
