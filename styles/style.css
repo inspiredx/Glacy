@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: "Inter";
     font-style: normal;
@@ -34,23 +33,23 @@ body {
 }
 
 .button {
-font-family: inherit;
-font-size: 16px;
-line-height: 16px;
-font-weight: 700;
-text-align: center;
-background: #FCFCFC;
-border: 4px solid rgba(252, 252, 252, 0.4);
-border-radius: 26px;
-box-shadow: 0px 4px 12px rgba(45, 52, 64, 0.1);
-text-decoration: none;
-color: #2D3440;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    text-align: center;
+    background: #FCFCFC;
+    border: 4px solid rgba(252, 252, 252, 0.4);
+    border-radius: 26px;
+    box-shadow: 0px 4px 12px rgba(45, 52, 64, 0.1);
+    text-decoration: none;
+    color: #2D3440;
 }
 
 .product-card-button {
     background-image: url("../images/buy-button.svg");
     background-repeat: no-repeat;
-   
+
 
 }
 
@@ -87,56 +86,56 @@ color: #2D3440;
 /* Баннеры */
 
 .banners-title {
-text-align: center;
-font-family: Inter;
-font-style: normal;
-font-weight: 900;
-font-size: 32px;
-line-height: 46px;
-/* or 144% */   
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 46px;
+    /* or 144% */
 
 }
 
 .banner-one {
-background: #FF7799;
-border-radius: 16px;
-width: 570px;
-height: 268px;
-left: 98px;
-top: 886px;
-margin-bottom: 200px; 
-/* убрать марджин */
+    background: #FF7799;
+    border-radius: 16px;
+    width: 570px;
+    height: 268px;
+    left: 98px;
+    top: 886px;
+    margin-bottom: 200px;
+    /* убрать марджин */
 }
 
 .banner-two {
-background: #FF7799;
-border-radius: 16px;
-width: 570px;
-height: 268px;
-left: 698px;
-top: 886px;
-margin-bottom: 200px; 
-/* убрать марджин */
+    background: #FF7799;
+    border-radius: 16px;
+    width: 570px;
+    height: 268px;
+    left: 698px;
+    top: 886px;
+    margin-bottom: 200px;
+    /* убрать марджин */
 }
 
 .products-title {
-font-family: Inter;
-font-style: normal;
-font-weight: 900;
-font-size: 32px;
-line-height: 46px;
-margin-bottom: 100px;
-text-align: center;
-/* убрать марджин */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 46px;
+    margin-bottom: 100px;
+    text-align: center;
+    /* убрать марджин */
 }
 
 .product-card {
-width: 270px;
-height: 332px;
-left: 98px;
-top: 1382px;
-background: #FCFCFC;
-border-radius: 8px;
+    width: 270px;
+    height: 332px;
+    left: 98px;
+    top: 1382px;
+    background: #FCFCFC;
+    border-radius: 8px;
 }
 
 .banner-news {
@@ -150,16 +149,16 @@ border-radius: 8px;
     background-image: url("../images/background-2.jpg");
     border-radius: 16px;
     width: 1170px;
-    height: 534px;    
-    
+    height: 534px;
+
 }
 
 .delivery-form {
-width: 500px;
-height: 406px;
-background: #FCFCFC;
-box-shadow: 0px 15px 40px rgba(45, 52, 64, 0.12);
-border-radius: 8px;
+    width: 500px;
+    height: 406px;
+    background: #FCFCFC;
+    box-shadow: 0px 15px 40px rgba(45, 52, 64, 0.12);
+    border-radius: 8px;
 }
 
 .contacts {
@@ -170,80 +169,80 @@ border-radius: 8px;
 }
 
 .wrapper-contacts {
-background: #FCFCFC;
-box-shadow: 0px 8px 16px rgba(45, 52, 64, 0.12);
-border-radius: 8px;
+    background: #FCFCFC;
+    box-shadow: 0px 8px 16px rgba(45, 52, 64, 0.12);
+    border-radius: 8px;
 }
 
 .banner-seo {
-width: 1122px;
-height: 432px;
-background: #FCFCFC;
-border-radius: 16px;
+    width: 1122px;
+    height: 432px;
+    background: #FCFCFC;
+    border-radius: 16px;
 }
 
 .seo-card-1 {
-position: absolute;    
-width: 442px;
-height: 66px;
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
-color: #565C66;
+    position: absolute;
+    width: 442px;
+    height: 66px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #565C66;
 
 }
 
 .seo-card-2 {
-position: absolute;
-width: 440px;
-height: 66px;
-margin-top: 226px;
+    position: absolute;
+    width: 440px;
+    height: 66px;
+    margin-top: 226px;
 
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
-color: #565C66;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #565C66;
 }
 
 .seo-card-3 {
-position: absolute;
-width: 441px;
-height: 66px;
-left: 762px;
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
-color: #565C66;
+    position: absolute;
+    width: 441px;
+    height: 66px;
+    left: 762px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #565C66;
 
 }
 
 .seo-card-4 {
 
-position: absolute;
-width: 442px;
-height: 66px;
-left: 762px;
-margin-top: 226px;
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
-color: #565C66;
+    position: absolute;
+    width: 442px;
+    height: 66px;
+    left: 762px;
+    margin-top: 226px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #565C66;
 
 }
 
 .wrapper-seo {
-width: 1170px;
-height: 480px;
-background: url('../images/background-seo.png');
-border-radius: 16px;
+    width: 1170px;
+    height: 480px;
+    background: url('../images/background-seo.png');
+    border-radius: 16px;
 }
 
 
@@ -253,26 +252,27 @@ border-radius: 16px;
     color: #2D3440;
 
 }
-.navigation-link-footer {
-        font-family: "Inter", sans-serif;
-        line-height: 20px;
-        font-weight: 700;
-        color: #2D3440;
-       
-        text-decoration: none;
-    }
 
- .button-footer {
-        font-family: "Inter", sans-serif;
-        line-height: 20px;
-        font-weight: 700;
-        color: #2D3440;
-       
-        text-decoration: none;
-    }
+.navigation-link-footer {
+    font-family: "Inter", sans-serif;
+    line-height: 20px;
+    font-weight: 700;
+    color: #2D3440;
+
+    text-decoration: none;
+}
+
+.button-footer {
+    font-family: "Inter", sans-serif;
+    line-height: 20px;
+    font-weight: 700;
+    color: #2D3440;
+
+    text-decoration: none;
+}
 
 .htmlacademy-link {
-        color: #2D3440;
+    color: #2D3440;
 }
 
 /* CATALOG.HTML */
@@ -283,81 +283,81 @@ border-radius: 16px;
 /* breadcrumbs */
 
 .breadcrumbs {
-color: #2D3440;
+    color: #2D3440;
 }
 
 .breadcrumbs-link {
-color: inherit;    
+    color: inherit;
 }
 
 .catalog-filter-title {
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 20px;
-color: #2D3440;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2D3440;
 }
 
 .control-input {
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 20px;
-color: #2D3440;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2D3440;
 }
 
 .sorting-container {
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 20px;
-color: #2D3440;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2D3440;
 }
 
 /* Продуктовая карточка */
 
 .product-card-title {
-font-family: Inter;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-color: #2D3440;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #2D3440;
 }
 
 .product-card-description {
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
-text-align: center;
-color: #565C66;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #565C66;
 }
 
 .product-card-price {
-font-family: Inter;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 24px;
-color: #2D3440;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2D3440;
 }
 
 .product-card-link {
-text-decoration: none;
+    text-decoration: none;
 }
 
 .product-card-image {
-display: block;
-margin: 0 auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .pagination-link {
-background: #FCFCFC;
-border-radius: 50px;
+    background: #FCFCFC;
+    border-radius: 50px;
 }
