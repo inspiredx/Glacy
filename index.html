@@ -15,7 +15,7 @@
     <h1 class="visually-hidden">Glacy Shop</h1>
     <img class="logo" src="images/Logo.svg" alt="Логотип «Glacy Shop».">
 
-    <div class="wrapper-menu-nav">
+    
 
       <nav class="navigation">
         <ul class="navigation-list">
@@ -29,14 +29,14 @@
             <a class="navigation-link" href="/faq.html">О компании</a>
           </li>
         </ul>
-    </div>
+    
 
     <p class="contact-number">+7 800 555-86-28</p>
 
 
-    <div class="wrapper-menu-user"></div>
+    
 
-    <ul class="navigation-list">
+    <ul class="navigation-user navigation-list">
       <li class="navigation-item">
         <a class="navigation-link" href="#">
           <span class="visually-hidden">
@@ -57,82 +57,83 @@
     </ul>
 
     </nav>
-    </div>
   </header>
 
   <!-- Начало мэйна -->
 
-  <main class="main-index">
+  <main class="main-container main-index"> 
+    <div class="page-container">   
+      <section class="product-name">
+        <h2 class="visually-hidden">Нежный пломбир с клубничным джемом</h2>
+        <p class="product-description">Натуральное мороженое из свежих сливок
+          и молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи.</p>
+      </section>
 
-    <section class="product-name">
-      <h2 class="visually-hidden">Нежный пломбир с клубничным джемом</h2>
-      <p class="product-description">Натуральное мороженое из свежих сливок
-        и молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи.</p>
+      <button class="button" type="button">Заказать</button>
+
+      <!-- Слайдшоу -->
+
+      <section class="gallery">
+
+        <img class="slider-image-one" src="images/slideshow/slideshow-1.png" alt="Мороженка-1">
+
+        <button class="slider-button slider-prev" type="button">
+          <span class="visually-hidden">Предыдущее фото</span>
+        </button>
+
+        <button class="slider-button slider-next" type="button">
+          <span class="visually-hidden">Следующее фото</span>
+        </button>
+
+
+        <!-- Пагинация -->
+
+
+        <ol class="slider-pagination">
+          <li class="slider-pagination-item">
+            <button class="slider-pagination-button slider-pagination-button-current" type="button">
+              <span class="visually-hidden">1 фото</span>
+            </button>
+          </li>
+          <li class="slider-pagination-item">
+            <button class="slider-pagination-button" type="button">
+              <span class="visually-hidden">2 фото</span>
+            </button>
+          </li>
+          <li class="slider-pagination-item">
+            <button class="slider-pagination-button" type="button">
+              <span class="visually-hidden">3 фото</span>
+            </button>
+          </li>
+        </ol>
+    
+    <ul class="main-social-list">
+      <li class="main-social-item">
+        <a class="button" href="#">
+          <span class="visually-hidden">ВКонтакте</span>
+        </a>
+      </li>
+      <li class="main-social-item">
+        <a class="button" href="#">
+          <span class="visually-hidden">Фейсбук</span>
+        </a>
+      </li>
+      <li class="main-social-item">
+        <a class="button" href="#">
+          <span class="visually-hidden">Инстаграм</span>
+        </a>
+      </li>
+    </ul>
     </section>
 
-    <button class="button" type="button">Заказать</button>
-
-    <!-- Слайдшоу -->
-
-    <section class="gallery">
-
-      <img class="slider-image-one" src="images/slideshow/slideshow-1.png" alt="Мороженка-1">
-
-      <button class="slider-button slider-prev" type="button">
-        <span class="visually-hidden">Предыдущее фото</span>
-      </button>
-
-      <button class="slider-button slider-next" type="button">
-        <span class="visually-hidden">Следующее фото</span>
-      </button>
-
-
-      <!-- Пагинация -->
-
-
-      <ol class="slider-pagination">
-        <li class="slider-pagination-item">
-          <button class="slider-pagination-button slider-pagination-button-current" type="button">
-            <span class="visually-hidden">1 фото</span>
-          </button>
-        </li>
-        <li class="slider-pagination-item">
-          <button class="slider-pagination-button" type="button">
-            <span class="visually-hidden">2 фото</span>
-          </button>
-        </li>
-        <li class="slider-pagination-item">
-          <button class="slider-pagination-button" type="button">
-            <span class="visually-hidden">3 фото</span>
-          </button>
-        </li>
-      </ol>
-
-      <ul class="main-social-list">
-        <li class="main-social-item">
-          <a class="button" href="#">
-            <span class="visually-hidden">ВКонтакте</span>
-          </a>
-        </li>
-        <li class="main-social-item">
-          <a class="button" href="#">
-            <span class="visually-hidden">Фейсбук</span>
-          </a>
-        </li>
-        <li class="main-social-item">
-          <a class="button" href="#">
-            <span class="visually-hidden">Инстаграм</span>
-          </a>
-        </li>
-      </ul>
-    </section>
 
     <!-- Блок баннеров -->
 
 
     <h2 class="banners-title">Заказывайте мороженое и получайте подарки!</h2>
 
-    <section class="banner-one">
+    <div class="banner-container">
+      <section class="banner-ceo">
       <h2 class="banner-title">Малинка даром!</h2>
       <p class="banner-description">При покупке 2 кг любого фруктового мороженого добавим в ваш заказ банку малинового
         варенья бесплатно.</p>
@@ -141,13 +142,14 @@
     </section>
 
 
-    <section class="banner-two">
+    <section class="banner-ceo">
       <h2 class="banner-title">Маршмеллоу даром!</h2>
       <p class="banner-description">При покупке 2 кг пломбира добавим в ваш заказ упаковку нежных зефирок совершенно
         бесплатно.</p>
       <button class="button" type="button">Хочу подарок</button>
       <img class="logo-gift-two" src="images/zefir.png" alt="Маршмеллоу в рожке.">
     </section>
+  </div>
 
     <!-- Кусок каталога -->
 
@@ -328,6 +330,8 @@
       </div>
 
     </section>
+  </div>
+  </main>
 
 
     <!-- Футер -->
@@ -375,8 +379,7 @@
       <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a>© 2021
       </p>
 
-    </footer>
-  </main>
+    </footer>  
 </body>
 
 </html>

@@ -22,6 +22,10 @@
     font-display: swap;
 }
 
+html {
+    height: 100%;
+}
+
 /* INDEX.HTML */
 
 body {
@@ -30,6 +34,11 @@ body {
     color: #2D3440;
     font-size: 18px;
     line-height: 24px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+
 }
 
 .button {
@@ -75,6 +84,10 @@ body {
 
 /* Main */
 
+.main-container {
+    flex-grow: 1;
+}
+
 .main-index {
     background-size: 100% auto;
 }
@@ -83,40 +96,6 @@ body {
     text-align: left;
 }
 
-/* Баннеры */
-
-.banners-title {
-    text-align: center;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 46px;
-    /* or 144% */
-
-}
-
-.banner-one {
-    background: #FF7799;
-    border-radius: 16px;
-    width: 570px;
-    height: 268px;
-    left: 98px;
-    top: 886px;
-    margin-bottom: 200px;
-    /* убрать марджин */
-}
-
-.banner-two {
-    background: #FF7799;
-    border-radius: 16px;
-    width: 570px;
-    height: 268px;
-    left: 698px;
-    top: 886px;
-    margin-bottom: 200px;
-    /* убрать марджин */
-}
 
 .products-title {
     font-family: Inter;
@@ -362,10 +341,69 @@ body {
     border-radius: 50px;
 }
 
-.product-list {
+/* .product-list {
     display: flex;
-   justify-content: space-between;    
-   
-  
+    justify-content: center;
 }
 
+.product-card:nth-child(2) {
+    margin-right: auto;
+}
+
+.product-card {
+    margin-left: 20px;
+} */
+
+.navigation {
+    display: flex;
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.navigation-list {
+    margin: 0;
+    padding: 0;
+    width: 214px;
+}
+
+.navigation-user {
+    max-width: 250px;
+    margin-left: auto;
+}
+
+.page-container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+/* Баннеры */
+
+.banners-title {
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 46px;
+    /* or 144% */
+
+}
+
+.banner-ceo {
+    background: #FF7799;
+    border-radius: 16px;
+    width: 570px;
+    height: 268px;
+    left: 98px;
+    top: 886px;
+    margin-bottom: 200px;
+    /* убрать марджин */
+}
+
+
+.banner-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
