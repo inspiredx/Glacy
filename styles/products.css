@@ -6,6 +6,13 @@
     /* Убрать марджин */
 }
 
+.product-list-index {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
 .product-card:nth-child(2) {
     margin-right: auto;
 }

@@ -19,15 +19,17 @@
 
     <nav class="navigation">
       <ul class="navigation-list">
-        <li class="navigation-item">
-          <a class="navigation-link" href="/catalog.html">Каталог</a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="/delivery.html">Доставка и оплата</a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="/faq.html">О компании</a>
-        </li>
+        <div class="nav-container">
+          <li class="navigation-item">
+            <a class="navigation-link" href="/catalog.html">Каталог</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="/delivery.html">Доставка и оплата</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="/faq.html">О компании</a>
+          </li>
+        </div>
       </ul>
 
 
@@ -159,7 +161,7 @@
       <section class="products-list">
 
 
-        <ul class="product-list">
+        <ul class="product-list-index">
           <!-- Первая карточка -->
 
           <li class="product-card">
@@ -277,19 +279,21 @@
 
         <!-- Баннер подписка -->
 
-        <section class="newsletter">
-          <p class="newsletter-text">Подпишитесь на нашу сладкую рассылку и будьте всегда
-            в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды.
-            Честно =)</p>
+        <div class="newsletter-wrapper">
+          <section class="newsletter">
+            <p class="newsletter-text">Подпишитесь на нашу сладкую рассылку и будьте всегда
+              в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды.
+              Честно =)</p>
 
-          <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-            <input class="field" placeholder="email@example.com" type="email" name="newsletter-email"
-              id="newsletter-email" required>
-            <button class="button-newsletter-button" type="submit">
-              <span class="visually-hidden">Отправить</span>
-            </button>
-          </form>
-        </section>
+            <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+              <input class="field" placeholder="email@example.com" type="email" name="newsletter-email"
+                id="newsletter-email" required>
+              <button class="button-newsletter-button" type="submit">
+                <span class="visually-hidden">Отправить</span>
+              </button>
+            </form>
+          </section>
+        </div>
       </div>
 
       <!-- Баннер доставка -->

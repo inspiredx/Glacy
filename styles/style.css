@@ -125,6 +125,7 @@ body {
     border-radius: 16px;
     width: 570px;
     height: 220px;
+    margin-right: 30px;
 }
 
 .delivery {
@@ -161,6 +162,13 @@ body {
     height: 432px;
     background: #FCFCFC;
     border-radius: 16px;
+
+}
+
+.seo-list {
+    display: flex;
+
+
 }
 
 
@@ -173,9 +181,18 @@ body {
     background: url('../images/background-seo.png');
     border-radius: 16px;
     margin-bottom: 100px;
+
     /* Убрать марджин */
 }
 
+.newsletter-wrapper {
+    width: 570px;
+    height: 220px;
+    background: url('../images/background-post.png');
+    margin-left: 30px;
+
+
+}
 
 /* Footer  */
 
@@ -295,7 +312,7 @@ body {
 .navigation-list {
     margin: 0;
     padding: 0;
-    width: 214px;
+    display: inline-block;
 }
 
 .navigation-user {
@@ -353,7 +370,7 @@ body {
 
 
 .low-banners-wrapper {
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
 }
 
@@ -363,7 +380,8 @@ body {
 
 .newsletter {
     width: 558px;
-    margin-left: 30px;
+
+    background: #FCFCFC;
 }
 
 /* Футер */
@@ -413,4 +431,8 @@ body {
 
 .catalog-inners {
     width: 596px;
+}
+
+.nav-container {
+    display: inline-flex;
 }
