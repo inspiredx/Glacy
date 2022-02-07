@@ -1,0 +1,14 @@
+.product-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    /* Убрать марджин */
+}
+
+.product-card:nth-child(2) {
+    margin-right: auto;
+}
+
+.product-card {
+    margin-left: 20px;
+}

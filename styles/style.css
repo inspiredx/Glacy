@@ -1,3 +1,6 @@
+@import "cards.css";
+@import "products.css";
+
 @font-face {
     font-family: "Inter";
     font-style: normal;
@@ -62,9 +65,9 @@ body {
 
 }
 
-.visually-hidden {
+/* .visually-hidden {
     opacity: 0;
-}
+} */
 
 /* Pages */
 
@@ -110,7 +113,7 @@ body {
 
 .product-card {
     width: 270px;
-    height: 332px;
+    height: 281px;
     left: 98px;
     top: 1382px;
     background: #FCFCFC;
@@ -160,68 +163,17 @@ body {
     border-radius: 16px;
 }
 
-.seo-card-1 {
-    position: absolute;
-    width: 442px;
-    height: 66px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-    color: #565C66;
 
-}
 
-.seo-card-2 {
-    position: absolute;
-    width: 440px;
-    height: 66px;
-    margin-top: 226px;
 
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-    color: #565C66;
-}
-
-.seo-card-3 {
-    position: absolute;
-    width: 441px;
-    height: 66px;
-    left: 762px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-    color: #565C66;
-
-}
-
-.seo-card-4 {
-
-    position: absolute;
-    width: 442px;
-    height: 66px;
-    left: 762px;
-    margin-top: 226px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-    color: #565C66;
-
-}
 
 .wrapper-seo {
     width: 1170px;
     height: 480px;
     background: url('../images/background-seo.png');
     border-radius: 16px;
+    margin-bottom: 100px;
+    /* Убрать марджин */
 }
 
 
@@ -341,18 +293,6 @@ body {
     border-radius: 50px;
 }
 
-/* .product-list {
-    display: flex;
-    justify-content: center;
-}
-
-.product-card:nth-child(2) {
-    margin-right: auto;
-}
-
-.product-card {
-    margin-left: 20px;
-} */
 
 .navigation {
     display: flex;
@@ -396,8 +336,9 @@ body {
     height: 268px;
     left: 98px;
     top: 886px;
-    margin-bottom: 200px;
-    /* убрать марджин */
+    margin-left: 20px;
+
+
 }
 
 
@@ -406,4 +347,54 @@ body {
     padding: 0;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 200px;
+    /* Убрать марджин */
+}
+
+.logo {
+    margin-left: 98px;
+    margin-top: 24px;
+}
+
+/* Нижние баннеры */
+
+
+
+.low-banners-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-news {
+    width: 570px;
+}
+
+.newsletter {
+    width: 558px;
+    margin-left: 30px;
+}
+
+/* Футер */
+
+.page-footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.footer-social {
+    width: 104px;
+    margin-right: 600px;
+
+}
+
+.navigation-list-footer {
+    width: 356px;
+
+}
+
+.academy-footer {
+    max-width: 200px;
+    margin-left: auto;
+    
 }
