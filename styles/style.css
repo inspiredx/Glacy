@@ -239,14 +239,6 @@ body {
     color: #2D3440;
 }
 
-.sorting-container {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;
-    color: #2D3440;
-}
 
 /* Продуктовая карточка */
 
@@ -396,5 +388,29 @@ body {
 .academy-footer {
     max-width: 200px;
     margin-left: auto;
-    
+
+}
+
+/* Сортировка */
+
+.sorting-container {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2D3440;
+    width: 196px;
+}
+
+/* Фильтрация */
+
+.catalog-filter {
+    width: 367px;
+}
+
+/* Наполнители */
+
+.catalog-inners {
+    width: 596px;
 }
