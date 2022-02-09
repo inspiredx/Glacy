@@ -1,5 +1,6 @@
 @import "cards.css";
 @import "products.css";
+@import "navigation.css";
 
 @font-face {
     font-family: "Inter";
@@ -65,9 +66,16 @@ body {
 
 }
 
-/* .visually-hidden {
-    opacity: 0;
-} */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 /* Pages */
 
@@ -76,14 +84,7 @@ body {
 
 }
 
-.navigation-link {
-    font-family: "Inter", sans-serif;
-    line-height: 20px;
-    font-weight: 700;
-    text-align: center;
-    color: inherit;
-    text-decoration: none;
-}
+
 
 /* Main */
 
@@ -194,34 +195,8 @@ body {
 
 }
 
-/* Footer  */
 
-.page-footer {
-    color: #2D3440;
 
-}
-
-.navigation-link-footer {
-    font-family: "Inter", sans-serif;
-    line-height: 20px;
-    font-weight: 700;
-    color: #2D3440;
-
-    text-decoration: none;
-}
-
-.button-footer {
-    font-family: "Inter", sans-serif;
-    line-height: 20px;
-    font-weight: 700;
-    color: #2D3440;
-
-    text-decoration: none;
-}
-
-.htmlacademy-link {
-    color: #2D3440;
-}
 
 /* CATALOG.HTML */
 .main-inner {
@@ -303,22 +278,9 @@ body {
 }
 
 
-.navigation {
-    display: flex;
-    width: 1366px;
-    margin: 0 auto;
-}
 
-.navigation-list {
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-}
 
-.navigation-user {
-    max-width: 250px;
-    margin-left: auto;
-}
+
 
 .page-container {
     width: 940px;
@@ -386,6 +348,8 @@ body {
 
 /* Футер */
 
+
+
 .page-footer-container {
     display: flex;
     justify-content: space-between;
@@ -402,6 +366,34 @@ body {
     width: 356px;
 
 }
+
+.page-footer {
+    color: #2D3440;
+
+}
+
+.navigation-link-footer {
+    font-family: "Inter", sans-serif;
+    line-height: 20px;
+    font-weight: 700;
+    color: #2D3440;
+
+    text-decoration: none;
+}
+
+.button-footer {
+    font-family: "Inter", sans-serif;
+    line-height: 20px;
+    font-weight: 700;
+    color: #2D3440;
+
+    text-decoration: none;
+}
+
+.htmlacademy-link {
+    color: #2D3440;
+}
+
 
 .academy-footer {
     max-width: 200px;
@@ -431,8 +423,4 @@ body {
 
 .catalog-inners {
     width: 596px;
-}
-
-.nav-container {
-    display: inline-flex;
 }

@@ -1,0 +1,40 @@
+.nav-container {
+    display: inline-flex;
+}
+
+.list-container {
+    display: inline-flex;
+
+}
+
+.navigation-item {
+    margin-right: 16px;
+}
+
+.navigation-link {
+    font-family: "Inter", sans-serif;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: inherit;
+    text-decoration: none;
+}
+
+.navigation {
+    display: flex;
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.navigation-list {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+}
+
+.navigation-user {
+    max-width: 250px;
+    margin-left: auto;
+
+}
