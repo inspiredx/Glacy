@@ -13,26 +13,29 @@
   <header class="page-header">
 
     <!-- <h1 class="visually-hidden">Glacy Shop</h1> -->
-    <img class="logo" src="images/Logo.svg" alt="Логотип «Glacy Shop».">
 
 
 
-    <nav class="navigation">
-      <ul class="navigation-list">
-        <div class="nav-container">
-          <li class="navigation-item">
-            <a class="navigation-link" href="/catalog.html">Каталог</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="/delivery.html">Доставка и оплата</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="/faq.html">О компании</a>
-          </li>
-        </div>
-      </ul>
+    <div class="header-menu">
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <div class="nav-container">
+            <li class="navigation-item">
+              <img class="logo" src="images/Logo.svg" alt="Логотип «Glacy Shop».">
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="/catalog.html">Каталог</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="/delivery.html">Доставка и оплата</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="/faq.html">О компании</a>
+            </li>
+          </div>
+        </ul>
 
-      
+
         <p class="contact-number">+7 800 555-86-28</p>
 
 
@@ -40,58 +43,70 @@
 
         <ul class="navigation-user navigation-list">
           <div class="list-container">
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">
-              <span class="visually-hidden">
-                Поиск
-              </span>
-            </a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">Вход</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">
-              <span class="visually-hidden">
-                Корзина
-              </span>
-            </a>
-          </li>
-        </div>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">
+                <span class="visually-hidden">
+                  Поиск
+                </span>
+              </a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">Вход</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">
+                <span class="visually-hidden">
+                  Корзина
+                </span>
+              </a>
+            </li>
+          </div>
         </ul>
-      </div>
+    </div>
 
     </nav>
+    </div>
   </header>
 
   <!-- Начало мэйна -->
 
   <main class="main-container main-index">
     <div class="page-container">
-      <section class="product-name">
-        <h2 class="visually-hidden">Нежный пломбир с клубничным джемом</h2>
-        <p class="product-description">Натуральное мороженое из свежих сливок
-          и молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи.</p>
-      </section>
-
-      <button class="button" type="button">Заказать</button>
-
-      <!-- Слайдшоу -->
-
-      <section class="gallery">
-
-        <img class="slider-image-one" src="images/slideshow/slideshow-1.png" alt="Мороженка-1">
-
-        <button class="slider-button slider-prev" type="button">
-          <span class="visually-hidden">Предыдущее фото</span>
-        </button>
-
-        <button class="slider-button slider-next" type="button">
-          <span class="visually-hidden">Следующее фото</span>
-        </button>
+      <div class="gallery-container">
+        <section class="product-name">
+          <h2 class="gallery-article">Нежный пломбир с клубничным джемом</h2>
+          <p class="product-description">Натуральное мороженое из свежих сливок
+            и молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи.</p>
+          <button class="button" type="button">Заказать</button>
+        </section>
 
 
-        <!-- Пагинация -->
+
+        <!-- Слайдшоу -->
+
+        <section class="gallery">
+
+          <div class="slideshow-container">
+
+            <button class="slider-button slider-prev" type="button">
+              <span class="visually-hidden">Предыдущее фото</span>
+            </button>
+            <img class="slider-image-one" src="images/slideshow/slideshow-1.png" alt="Мороженка-1">
+
+            <button class="slider-button slider-next" type="button">
+              <span class="visually-hidden">Следующее фото</span>
+            </button>
+            <div class="slideshow-container-faded">
+
+              <img class="slider-image-two" src="images/slideshow/slideshow-2.png" alt="Мороженка-2">
+              <img class="slider-image-two" src="images/slideshow/slideshow-3.png" alt="Мороженка-3">
+            </div>
+          </div>
+      </div>
+
+      <!-- Пагинация -->
+
+      <div class="pag-soc-wraper">
 
 
         <ol class="slider-pagination">
@@ -129,6 +144,7 @@
             </a>
           </li>
         </ul>
+      </div>
       </section>
 
 

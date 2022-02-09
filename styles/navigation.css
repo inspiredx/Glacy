@@ -34,8 +34,13 @@
 
 }
 
+
 .navigation-user {
-    max-width: 250px;
     margin-left: auto;
 
+}
+
+.navigation-user .navigation-list {
+    min-width: 32px;
+    min-height: 32px;
 }
